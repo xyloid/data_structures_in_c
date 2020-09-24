@@ -1,0 +1,13 @@
+eat sleep
+eat exercise
+reading  exercise 
+reading java
+java sleep
+cooking eat
+coffee reading
+exercise bath
+bath sleep
+java handin 
+exercise TV
+java debug
+debug handin

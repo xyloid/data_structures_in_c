@@ -1,0 +1,35 @@
+Command 1: %ls
+ExternalResources
+images
+main.c
+output.txt
+README.md
+
+Command 2: %nl output.txt
+     1	ls:
+     2	ExternalResources
+     3	images
+     4	main.c
+     5	output.txt
+     6	README.md
+
+Command 3: %grep main main.c 
+int main()
+
+Command 4: %cat main.c | grep main
+int main()
+
+Command 5: %cat main.c | nl | sort -r
+     9		for(i=1; i<11; i++)
+     8		int i;
+     7	{
+     6	int main()
+     5	}
+     4		return n>1 ? base*power(base, --n) : base;
+     3	{
+     2	double power(double base, double n)
+     1	#include<stdio.h>
+    12	}
+    11		return 0;
+    10			printf("power(2,%2d) = %f\n", i, power(2, i));
+
